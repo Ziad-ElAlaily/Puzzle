@@ -1,0 +1,17 @@
+.hor {
+  position: relative;
+  z-index: 99;
+  padding-top: 10%;
+  display: none;
+}
+.hor2 {
+  position: absolute;
+  padding-left: 50%;
+  z-index: 98;
+  padding-top: 20%;
+}
+button {
+  background: transparent;
+  border: none !important;
+  outline: none;
+}

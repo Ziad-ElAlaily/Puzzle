@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/introPage.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center class="hor2">
+      <button onclick="myFunction()">
+        <img src="Images/small.png" alt="" id="bigImg" />
+      </button>
+    </center>
+    <center>
+      <button onclick="myFunction()">
+        <img src="Images/oldPaper.png" alt="" id="smallImg" class="hor" />
+      </button>
+    </center>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("smallImg");
+        var y = document.getElementById("bigImg");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          y.style.display = "none";
+        } else {
+          x.style.display = "none";
+          y.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
