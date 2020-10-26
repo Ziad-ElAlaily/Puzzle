@@ -1,0 +1,48 @@
+html {
+  background-image: url("/Images/studyRoom.jpg");
+  font-family: "Aladin", cursive;
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.envContainer {
+  position: absolute;
+  margin: 10% 25%;
+  padding: 2% 5% 2%;
+}
+.envContainer .smallEnv {
+  width: 10%;
+}
+.letterContainer {
+  position: absolute;
+  margin: 10% 25%;
+  padding: 2% 5% 2%;
+}
+.letter {
+  width: 60%;
+}
+.letterText {
+  position: absolute;
+  top: 5%;
+  left: 23%;
+  font-size: 2rem;
+}
+.letterText2 {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 40%;
+  font-size: 1rem;
+}
+button {
+  background: transparent;
+  border: none !important;
+  outline: none;
+}
+.txt {
+  display: none;
+}
